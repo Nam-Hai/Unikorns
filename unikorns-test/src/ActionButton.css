@@ -23,6 +23,7 @@
     height: 1px;
     background-color: black;
     position: relative;
+    transition: transform 200ms ease;
 }
 
 #icon::after {
@@ -37,4 +38,10 @@
     /* transform: rotate(45deg) translate(-50%, -50%); */
     transform:  translate(0%, -50%) rotate(45deg);
     display: block;
+}
+
+
+.ActionButton:hover #icon {
+    transform: translateX(4px);
+
 }
