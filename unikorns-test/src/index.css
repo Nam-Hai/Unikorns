@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Medium.ttf") format("ttf");
+}
+
+body {
+  font-family: "Inter";
+  color: #000000;
+  background-color: white;
+}

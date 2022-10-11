@@ -1,0 +1,44 @@
+.App {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.label__container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 400px;
+  display: flex;
+
+  align-items: center;
+}
+
+.label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 330px;
+  line-height: 75%;
+  letter-spacing: -0.02em;
+
+  width: max-content;
+  position: relative;
+
+  padding: 0 32px;
+}
+
+.label__container:hover .ActionButton{
+  opacity: 1;
+}
+.ActionButton {
+  position: absolute;
+  left: 28px;
+  transform: rotate(0);
+
+  opacity: 0;
+  transition: opacity 300ms;
+}

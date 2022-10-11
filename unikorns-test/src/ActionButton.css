@@ -1,0 +1,40 @@
+.ActionButton {
+    font-size: 2rem;
+    height: 51px;
+
+    padding: 1rem;
+    width: 215px;
+
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05), 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+
+    font-size: 21px;
+    cursor: pointer;
+}
+
+#icon {
+    width: 12px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+}
+
+#icon::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    /* transform: rotate(45deg) translate(-50%, -50%); */
+    transform:  translate(0%, -50%) rotate(45deg);
+    display: block;
+}
