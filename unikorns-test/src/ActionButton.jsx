@@ -9,10 +9,6 @@ function ActionButton() {
                     Get in touch
                     <div className='icon'></div>
                 </span>
-                <span className='ActionButton__container ActionButton__container__black'>
-                    Get in touch
-                    <div className='icon' id='icon__black'></div>
-                </span>
             </a>
         </div >
     )

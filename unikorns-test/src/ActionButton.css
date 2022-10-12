@@ -30,21 +30,7 @@
     top: 0;
     left: 0;
 
-        -webkit-clip-path: inset(0 100% 0 0 round 51px);
-    clip-path: inset(0 100% 0 0 round 51px);
-    transition: -webkit-clip-path .48s cubic-bezier(.65,0,.35,1);
-    transition: clip-path .48s cubic-bezier(.65,0,.35,1);
 }
-
-.ActionButton__container.ActionButton__container__black #icon__black {
-    background-color: white;
-}
-
-.ActionButton:hover .ActionButton__container.ActionButton__container__black{
--webkit-clip-path: inset(0 0% 0 0 round 51px);
-    clip-path: inset(0 0% 0 0 round 51px);
-}
-
 
 .icon {
     width: 12px;
@@ -68,13 +54,3 @@
     display: block;
 }
 
-#icon__black::after {
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-}
-
-
-.ActionButton:hover #icon {
-    transform: translateX(4px);
-
-}
